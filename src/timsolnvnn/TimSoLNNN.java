@@ -19,10 +19,10 @@ public class TimSoLNNN {
         b = n.nextFloat();
         c = n.nextFloat();
         max = a;
-            if(max < b)
-                max = b;
-            if (max < c)
-                max = c;
+        if(max < b)
+            max = b;
+        if (max < c)
+            max = c;
         System.out.println("So lon nhat = " +max);
     }
 }

@@ -18,8 +18,9 @@ public class TongDaySo {
         Scanner h= new Scanner (System.in);
         n= h.nextInt();
         System.out.println(" Nhap n: " +n);
-            for(i=1; i<=n; i++)
-                E= E + (float)1/i;
-                System.out.println(" Tong E la: " +E);
+        for(i=1; i<=n; i++){
+            E= E + (float)1/i;
+        }
+        System.out.println(" Tong E la: " +E);
     }
 }
