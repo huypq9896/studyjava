@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author Silk
  */
-public class TimSoLNNN {
+public class TimSoLN {
     public static void main(String[] args) {
         float a, b, c, max;
         Scanner n = new Scanner (System.in);
